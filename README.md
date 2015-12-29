@@ -1,2 +1,7 @@
-# grunt-model
-Modelo Grunt (sass, uglify, imagemin, browserSync)
+# Grunt Model
+
+Requisitos:
+Python
+Ruby
+Sass
+"gem install sass"
