@@ -91,13 +91,13 @@
     margin: 0;
   }
   .nav ul {
-    width: 180px;
-    padding: 5px 0;
+    //width: 180px;
+    padding: 15px 20px 10px 0px;
     position: absolute;
     top: 0;
     left: 0;
     border: solid 1px #aaa;
-    background: #fff url(../../img/icon-menu.png) no-repeat 10px 11px;
+    background: #fff url(../../img/icon-menu.png) no-repeat 21px 12px;
     border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
   }
@@ -112,6 +112,8 @@
     display: block;
     padding: 5px 5px 5px 32px;
     text-align: left;
+    line-height: 16px;
+
   }
   .nav .current a {
     background: none;
@@ -126,8 +128,15 @@
     display: block;
     margin: 0 0 5px;
   }
-  .nav ul:hover .current {
+  //.nav ul:hover .current {
+  //  background: url(../../img/icon-check.png) no-repeat 10px 7px;
+  //}
+  .nav ul li:target a {
     background: url(../../img/icon-check.png) no-repeat 10px 7px;
+  }
+
+  ul:target {
+    border: 1px solid #dac89d;
   }
 
   /* right nav */
@@ -140,6 +149,10 @@
   .nav.center ul {
     left: 50%;
     margin-left: -90px;
+  }
+
+  .nav ul:hover li.teste {
+    display: none;
   }
 
 }
