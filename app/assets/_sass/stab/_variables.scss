@@ -1,0 +1,29 @@
+$columns: 12;
+
+$default-margin: 15px;
+$screen-m-max: 1200px;
+$screen-s-max: 992px;
+$screen-x-max: 768px;
+
+$container-l-max: 1170px;
+$container-m-max: 970px;
+$container-s-max: 750px;
+$container-x-max: 100%;
+
+$border-radius: 2px;
+$border-color: #d2d2d2;
+
+$form-text-color: #8f8f8f;
+
+$primary-text-color: #0d090d;
+$primary-soft-text-color: #201c21;
+$secondary-text-color: #8f8f8f;
+
+$primary-color-hover: #ff3335;
+$primary-color: mix($primary-color-hover, #ffffff, 85%);
+
+$default-font-family: 'Open Sans', sans-serif;
+
+// Tipografia menu
+$primary-text-color-menu: #707070;
+$bold-text-menu: 600;

@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 
         sass: {
             dist: {
-                options: {style: 'compressed'},
+                options: {style: 'normal'},
                 files: [{
                     expand: true,
                     cwd: 'app/assets/_sass',
@@ -31,8 +31,8 @@ module.exports = function (grunt) {
         htmlmin: {
             dist: {
                 options: {
-                    removeComments: true,
-                    collapseWhitespace: true
+                    removeComments: true
+                    //collapseWhitespace: true
                 },
                 files: [{
                     expand: true,
