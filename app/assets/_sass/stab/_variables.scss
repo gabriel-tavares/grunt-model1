@@ -24,6 +24,10 @@ $primary-color: mix($primary-color-hover, #ffffff, 85%);
 
 $default-font-family: 'Open Sans', sans-serif;
 
-// Tipografia menu
+// Menu
+$responsive-nav: 40em;
+$header-background: #040404;
+$menu-link: #f4421a;
+$menu-active: #b73214;
 $primary-text-color-menu: #707070;
 $bold-text-menu: 600;
