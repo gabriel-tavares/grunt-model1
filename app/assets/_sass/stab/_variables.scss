@@ -22,12 +22,21 @@ $secondary-text-color: #8f8f8f;
 $primary-color-hover: #ff3335;
 $primary-color: mix($primary-color-hover, #ffffff, 85%);
 
+// Tipografia
+$font-size: 14px;
 $default-font-family: 'Open Sans', sans-serif;
+$primary-font-family: 'Amaranth', sans-serif;
+
 
 // Menu
 $responsive-nav: 40em;
-$header-background: #040404;
-$menu-link: #f4421a;
-$menu-active: #b73214;
+$header-background: #fff;
+$menu-link-bg: #fff;
+$menu-hover-bg: #fff;
+$menu-active-bg: #fff;
+
+$menu-link-text: #075758;
+$menu-hover-text: #89BF9F;
+$menu-active-text: #075758;
 $primary-text-color-menu: #707070;
 $bold-text-menu: 600;
