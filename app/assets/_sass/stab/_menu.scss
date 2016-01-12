@@ -85,6 +85,7 @@ body {
   text-size-adjust: 100%;
   color: #37302a;
   background: #CFCFCF;
+  background: url("../../img/background.jpg") repeat;
   font: normal 100%/1.4 sans-serif;
 }
 
@@ -111,7 +112,7 @@ p {
 
 header {
   background: $header-background;
-  border-bottom: 1px solid #89BF9F;
+  border-bottom: 1px solid #428F9C;
   box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
   -moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
   -webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
@@ -120,6 +121,9 @@ header {
   width: 100%;
   left: 0;
   top: 0;
+  background: url("../../img/fabric.png") repeat;
+  background-color: #428F9C;
+
 }
 
 .logo {
@@ -225,7 +229,6 @@ header {
   font-weight: 600;
   font-size: .9em;
   font-family: $primary-font-family;
-
 }
 
 .nav-collapse a:hover,
